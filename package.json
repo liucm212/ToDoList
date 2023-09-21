@@ -12,9 +12,7 @@
   "dependencies": {
     "uuid": "^9.0.1"
   },
-  {
-    "engines" : {
-      "node" : "18.x"
-    }
+  "engines" : {
+    "node" : "18.x"
   }
 }
