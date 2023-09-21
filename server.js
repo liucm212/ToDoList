@@ -176,4 +176,4 @@ function requestListener(req, res){ // the function to manipulate server
 } 
 // 建立一個server來監聽網頁
 const server = http.createServer(requestListener)
-server.listen(3333)
+server.listen(process.env.PORT || 3333) //依據環境吃port號
